@@ -43,7 +43,7 @@
 
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
-                    <li><a href="#about"><span class="btnicon icon-user"></span>About</a></li>
+                    <li><a href="#about"><span class="btnicon icon-user"></span>Inicio</a></li>
                     <li><a href="#services"><span class="btnicon icon-cloud-download"></span>Descargar App</a></li>
                     <li><a href="#portfolio"><span class="btnicon icon-rocket"></span>Categorias</a></li>
                     <li><a href="#testimonials"><span class="btnicon icon-bubble"></span>Comentarios</a></li>

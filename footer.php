@@ -15,19 +15,18 @@ FOOTER START
 
         <div class="footerlinks"><!-- FOOTER LINKS START -->
             <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">Inicio</a></li>
+                <li><a href="#services">Descargar</a></li>
+                <li><a href="#portfolio">Categorias</a></li>
+                <li><a href="#testimonials">Comentarios</a></li>
 
                 <!--replace the email address below with your email address-->
-                <li><a href="mailto:m@creatrix.us">Contact</a></li>
+                <li><a href="mailto:jose@misplages.com">Contactos</a></li>
             </ul>
         </div><!-- FOOTER LINKS END -->
 
         <div class="copyright"><!-- FOOTER COPYRIGHT START -->
-            <p><a href="#">Drifolio</a> stands for Dribbble-Portolio. This is a free HTML template designed and coded by <a href="http://evenfly.com">EvenFly Team</a>. All logo and images in this template used for preview purpose only. You are free to use the template but make sure to use your own images.</p>
+            <p><a href="#">MISPlaces</a></p>
         </div><!-- FOOTER COPYRIGHT END -->
 
         <div class="footersocial wow fadeInUp" data-wow-duration="3s"><!-- FOOTER SOCIAL ICONS START -->

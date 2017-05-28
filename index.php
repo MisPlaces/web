@@ -151,64 +151,26 @@ ABOUT SECTION START
 <!-- ===========================
 PORTFOLIO SECTION START
 =========================== -->
-<div id="portfolio">
-    <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-        <span class="bigicon icon-rocket"></span>
-        <h3>A few recent works</h3>
-        <hr class="separetor">
-    </div><!-- PORTFOLIO SECTION HEAD END -->
+<!--<div id="portfolio">-->
+<!--    <div class="sectionhead wow bounceInUp" data-wow-duration="2s">-->
+<!--        <span class="bigicon icon-rocket"></span>-->
+<!--        <h3>A few recent works</h3>-->
+<!--        <hr class="separetor">-->
+<!--    </div><!-- PORTFOLIO SECTION HEAD END -->-->
+<!---->
+<!--    <!-- PORTFOLIO ITEMS START -->-->
+<!--    <div class="portfolioitems container">-->
+<!--        <ul><div id="shotsByPlayerId"> </div></ul><!--REFER TO THE js/drifolio.js-->-->
+<!--    </div><!-- PORTFOLIO ITEMS END -->-->
+<!---->
+<!--    <!--Replace the URL below with your dribbble profile URL-->-->
+<!--    <a class="btn btn-default wow fadeInUp" href="http://dribbble.com/srizon" role="button">-->
+<!--        <span class="btnicon icon-social-dribbble"></span>-->
+<!--        <span class="button_text">View all items</span>-->
+<!--    </a>-->
+<!--</div><!-- PORTFOLIO SECTION END -->-->
 
-    <!-- PORTFOLIO ITEMS START -->
-    <div class="portfolioitems container">
-        <ul><div id="shotsByPlayerId"> </div></ul><!--REFER TO THE js/drifolio.js-->
-    </div><!-- PORTFOLIO ITEMS END -->
-
-    <!--Replace the URL below with your dribbble profile URL-->
-    <a class="btn btn-default wow fadeInUp" href="http://dribbble.com/srizon" role="button">
-        <span class="btnicon icon-social-dribbble"></span>
-        <span class="button_text">View all items</span>
-    </a>
-</div><!-- PORTFOLIO SECTION END -->
-
-<!-- ===========================
-TESTIMONIAL SECTION START
-=========================== -->
-<div id="testimonials" class="container">
-    <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-        <span class="bigicon icon-bubbles"></span>
-        <h3>Comentarios</h3>
-        <h4>Nuestra gente, nuestra tierra, nuestras historias!</h4>
-        <hr class="separetor">
-    </div><!-- TESTIMONIAL SECTIONHEAD END -->
-
-    <!-- TESTIMONIAL ITEMS START -->
-    <div class="row">
-        <!-- 1ST TESTIMONIAL ITEM -->
-
-        <?php
-        $comentarios = $consultas->getComentarios();
-        foreach ($comentarios as $c){
-            $img= rand (1,4);
-            ?>
-            <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
-                <div class="clientsphoto">
-                    <img src="img/persona_<?php echo $img; ?>.jpg" alt="Eric">
-                </div>
-
-                <div class="quote">
-                    <blockquote>
-                        <p><?php echo $c->comentario; ?></p>
-                    </blockquote>
-                    <h5><?php echo $c->nombre_categoria." - ".$c->nombre_lugar; ?></h5>
-                    <p><?php echo $c->nombre_persona; ?></p>
-                </div>
-            </div>
-        <?php
-        }
-        ?>
-        <!-- 4TH TESTIMONIAL ITEM END -->
-    </div>
-</div><!-- TESTIMONIAL SECTION END -->
+<?php include 'comentarios.php'; ?>
 <?php include 'footer.php'; ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
